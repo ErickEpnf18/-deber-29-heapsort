@@ -1,19 +1,15 @@
 #include <iostream>
-#include <stdlib.h>
-#include <fstream>
+#include "heapsort.h"
+
+
 
 using namespace std;
 
-#include "heapsort.h"
 
-int main() {
-escritura();
-lectura();
 
-system("pause");
-return 0;
+int main()
+{
+    menu();
+    return 0;
 }
-
-
-
 
